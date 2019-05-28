@@ -1,0 +1,5 @@
+X = train_features
+y = train_labels.drop('id', axis=1)
+
+# Test train split
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
