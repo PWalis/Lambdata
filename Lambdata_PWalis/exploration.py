@@ -1,3 +1,4 @@
+#!/user/bin/env python
 from sklearn.model_selection import train_test_split
 import pandas as pd
 
@@ -10,6 +11,7 @@ def values(x):
 def cardinality_finder(df, threshold, dtype):
     # Given a DataFrame and an int this function will print the features below the threshold and display 
     # the cardinality along with the dtype, give a list of dtypes to check if more than one is desired.
+    # dtype should be a string
     cf = df.select_dtypes(include=dtype)
     for column in cf.columns:
         data_type = cf[column].dtype

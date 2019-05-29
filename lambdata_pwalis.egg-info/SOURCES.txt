@@ -1,0 +1,7 @@
+README.md
+setup.py
+lambdata_pwalis.egg-info/PKG-INFO
+lambdata_pwalis.egg-info/SOURCES.txt
+lambdata_pwalis.egg-info/dependency_links.txt
+lambdata_pwalis.egg-info/requires.txt
+lambdata_pwalis.egg-info/top_level.txt
