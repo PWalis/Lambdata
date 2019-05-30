@@ -12,8 +12,8 @@ with open("README.md", "r") as fh:
     LONG_DESCRIPTION = fh.read()
 
 setuptools.setup(
-    name="lambdata-pwalis",
-    version="0.0.2",
+    name="lambdata_pwalis",
+    version="0.0.3",
     author="PWalis",
     description="A collection of Data Science helper functions",
     long_description=LONG_DESCRIPTION,

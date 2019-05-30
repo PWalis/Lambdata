@@ -1,5 +1,8 @@
 README.md
 setup.py
+Lambdata_PWalis/__init__.py
+Lambdata_PWalis/exploration.py
+Lambdata_PWalis/testing_code.py
 lambdata_pwalis.egg-info/PKG-INFO
 lambdata_pwalis.egg-info/SOURCES.txt
 lambdata_pwalis.egg-info/dependency_links.txt
